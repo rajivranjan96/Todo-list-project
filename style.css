@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,15 +9,15 @@ body {
     font-family: 'lato',Arial, Helvetica, sans-serif;
 }
 body {
-    background: #171717;
-    color: rgb(237, 29, 29);
+    background: #f0f0f0;
+    color: black;
     min-height: 100vh;
 }
 header {
     font-size: 2rem;
 }
 header,
-#form {
+form {
   min-height: 20vh;
   display: flex;
   justify-content: center;
@@ -28,9 +28,9 @@ form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
-    background: rgb(132, 77, 77);
+    background: black;
 }
-.todo-input { 
+.todo-input {
     color: white;
 }
 .todo-btn {
@@ -82,63 +82,4 @@ form button {
 .fade-away {
     transform: translateX(10rem);
     opacity: 0;
-} */
-
-
-
-
-body{
-    font-size: ;
-    font-family: 'lato',Arial, Helvetica, sans-serif;
-    background: #171717;
-    color: red;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-header{
-    color: red;
-    text-align: center;
-}
-/* .container{
-    display: flex;
-    gap: 50px;
-} */
-h4 {
-    margin-right: 21px;
-}
-#form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .todo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#posts{
-    width: 600px;
-}
-#posts div{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.options{
-    display: flex;
-    gap: 25px;
-} 
-
-i{
-    cursor: pointer;
-}
-
-#msg{
-    margin-left: 6px;
-    color: red;
 }
